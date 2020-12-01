@@ -1,0 +1,10 @@
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\bin\Debug\Test.exe.config
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\bin\Debug\Test.exe
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\bin\Debug\Test.pdb
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\bin\Debug\Entidades.dll
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\bin\Debug\Entidades.pdb
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\obj\Debug\Test.exe
+C:\Users\Juan Pablo\source\repos\DosSantos.JuanPablo.TP4\Test\obj\Debug\Test.pdb

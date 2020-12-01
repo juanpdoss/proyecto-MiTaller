@@ -1,0 +1,15 @@
+Service generado el dia 30/11/2020 03:33:13
+informacion del servicio:
+AireAcondicionado numero 3499 recibira un servicio de de balanceo.
+el costo del servicio sera de 1300 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 30/11/2020 03:33:31
+informacion del servicio:
+AireAcondicionado numero 3499 recibira un servicio de limpieza del filtro.
+el costo del servicio sera de 1500 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 30/11/2020 03:34:17
+informacion del servicio:
+AireAcondicionado numero 3499 recibira un servicio de limpieza del filtro.
+el costo del servicio sera de 1500 ya que el electrodomestico no tiene garantia.
+-----------------------------------------

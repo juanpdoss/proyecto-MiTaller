@@ -1,0 +1,65 @@
+Service generado el dia 30/11/2020 02:45:45
+informacion del servicio:
+Estufa numero 8 recibira un servicio de diagostico tecnico.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 30/11/2020 02:50:44
+informacion del servicio:
+Heladera numero 10 recibira un servicio de diagostico tecnico.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 30/11/2020 02:55:56
+informacion del servicio:
+Lavarropa numero 1 recibira un servicio de carga de gas.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 30/11/2020 02:56:00
+informacion del servicio:
+Lavarropa numero 1 recibira un servicio de cambio de correa.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 30/11/2020 02:56:05
+informacion del servicio:
+Lavarropa numero 1 recibira un servicio de cambio de correa.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 30/11/2020 02:56:15
+informacion del servicio:
+Estufa numero 8 recibira un servicio de diagostico tecnico.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 30/11/2020 02:56:23
+informacion del servicio:
+Estufa numero 8 recibira un servicio de cambio de correa.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 30/11/2020 02:56:29
+informacion del servicio:
+Cocina numero 69 recibira un servicio de diagostico tecnico.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 30/11/2020 02:56:39
+informacion del servicio:
+AireAcondicionado numero 5 recibira un servicio de limpieza del filtro.
+el costo del servicio sera de 1500 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 30/11/2020 03:05:01
+informacion del servicio:
+Lavarropa numero 1 recibira un servicio de de balanceo.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 30/11/2020 03:50:22
+informacion del servicio:
+Lavarropa numero 1 recibira un servicio de busqueda de posible perdida de gas.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------

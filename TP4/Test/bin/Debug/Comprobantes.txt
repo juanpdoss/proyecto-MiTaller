@@ -1,0 +1,10 @@
+Service generado el dia 30/11/2020 03:17:12
+informacion del servicio:
+Cocina numero 81 recibira un servicio de busqueda de posible perdida de gas.
+el costo del servicio sera de 1300 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 30/11/2020 03:18:32
+informacion del servicio:
+Cocina numero 83 recibira un servicio de busqueda de posible perdida de gas.
+el costo del servicio sera de 1300 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
