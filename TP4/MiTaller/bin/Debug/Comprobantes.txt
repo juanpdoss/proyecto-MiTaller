@@ -228,3 +228,13 @@ informacion del servicio:
 Cocina numero 83 recibira un servicio de cambio de cremallera.
 el costo del servicio sera de 2500 ya que el electrodomestico no tiene garantia.
 -----------------------------------------
+Service generado el dia 6/12/2020 21:19:55
+informacion del servicio:
+AireAcondicionado numero 5 recibira un servicio de busqueda de perdida de gas.
+el costo del servicio sera de 1300 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 6/12/2020 21:20:09
+informacion del servicio:
+SinEspecificar numero 9 recibira un servicio de reparacion electronica.
+el costo del servicio sera de 3000 ya que el electrodomestico no tiene garantia.
+-----------------------------------------

@@ -6,6 +6,10 @@ namespace TestUnitarios
     [TestClass]
     public class TestUnitarios
     {
+
+        /// <summary>
+        /// Compruebo que la lista de electrodomesticos no sea null. 
+        /// </summary>
         [TestMethod]
         public void TallerInstanciaListaOK()
         {
@@ -13,6 +17,9 @@ namespace TestUnitarios
 
         }
 
+        /// <summary>
+        /// Compruebo que la base de datos lanze la excepcion BaseDeDatosException.
+        /// </summary>
         [TestMethod]
         public void BaseDeDatosProduceExcepcion()
         {
@@ -31,7 +38,9 @@ namespace TestUnitarios
 
         }
 
-
+        /// <summary>
+        /// Compruebo que los services se agreguen a la cola del taller 
+        /// </summary>
         [TestMethod]
         public void TallerAgregaService()
         {
