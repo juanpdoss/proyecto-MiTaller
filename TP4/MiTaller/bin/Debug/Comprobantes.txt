@@ -63,3 +63,168 @@ Lavarropa numero 1 recibira un servicio de busqueda de posible perdida de gas.
 no tendra que pagar, los costos del mismo estan cubierto por la garantia.
 
 -----------------------------------------
+Service generado el dia 3/12/2020 13:10:59
+informacion del servicio:
+Heladera numero 3 recibira un servicio de limpieza del filtro.
+el costo del servicio sera de 1500 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 3/12/2020 13:11:11
+informacion del servicio:
+Heladera numero 3 recibira un servicio de diagostico tecnico.
+el costo del servicio sera de 1500 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 3/12/2020 13:11:25
+informacion del servicio:
+Heladera numero 3 recibira un servicio de reparacion electronica.
+el costo del servicio sera de 3000 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 3/12/2020 13:31:04
+informacion del servicio:
+Lavarropa numero 1 recibira un servicio de carga de gas.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 13:31:16
+informacion del servicio:
+Lavarropa numero 1 recibira un servicio de busqueda de perdida de gas.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 13:31:34
+informacion del servicio:
+Heladera numero 68 recibira un servicio de cambio de correa.
+el costo del servicio sera de 2000 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 3/12/2020 13:37:36
+informacion del servicio:
+Heladera numero 82 recibira un servicio de limpieza del filtro.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 13:39:40
+informacion del servicio:
+SinEspecificar numero 7 recibira un servicio de limpieza del filtro.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 13:42:00
+informacion del servicio:
+Heladera numero 70 recibira un servicio de balanceo.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 13:42:06
+informacion del servicio:
+Cocina numero 77 recibira un servicio de diagostico tecnico.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 13:42:19
+informacion del servicio:
+Cocina numero 78 recibira un servicio de reparacion electronica.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 13:44:57
+informacion del servicio:
+Lavarropa numero 1 recibira un servicio de cambio de correa.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 13:45:27
+informacion del servicio:
+Lavarropa numero 1 recibira un servicio de diagostico tecnico.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 14:00:36
+informacion del servicio:
+AireAcondicionado numero 2 recibira un servicio de busqueda de perdida de gas.
+el costo del servicio sera de 1300 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 3/12/2020 14:00:42
+informacion del servicio:
+Heladera numero 70 recibira un servicio de cambio de correa.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 14:00:45
+informacion del servicio:
+Heladera numero 70 recibira un servicio de reparacion electronica.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 14:00:56
+informacion del servicio:
+Cocina numero 78 recibira un servicio de diagostico tecnico.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 14:01:14
+informacion del servicio:
+Cocina numero 74 recibira un servicio de cambio de cremallera.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 18:13:02
+informacion del servicio:
+Estufa numero 6 recibira un servicio de carga de gas.
+el costo del servicio sera de 2000 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 3/12/2020 18:13:09
+informacion del servicio:
+SinEspecificar numero 7 recibira un servicio de balanceo.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 18:18:43
+informacion del servicio:
+Estufa numero 6 recibira un servicio de balanceo.
+el costo del servicio sera de 1300 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 3/12/2020 18:19:02
+informacion del servicio:
+SinEspecificar numero 7 recibira un servicio de limpieza del filtro.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 3/12/2020 23:59:57
+informacion del servicio:
+Cocina numero 77 recibira un servicio de reparacion electronica.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 6/12/2020 20:52:49
+informacion del servicio:
+Heladera numero 10 recibira un servicio de carga de gas.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 6/12/2020 20:53:10
+informacion del servicio:
+Heladera numero 68 recibira un servicio de diagostico tecnico.
+el costo del servicio sera de 1500 ya que el electrodomestico no tiene garantia.
+-----------------------------------------
+Service generado el dia 6/12/2020 20:53:25
+informacion del servicio:
+Microondas numero 72 recibira un servicio de limpieza del filtro.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 6/12/2020 20:53:46
+informacion del servicio:
+Heladera numero 85 recibira un servicio de carga de gas.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 6/12/2020 20:54:20
+informacion del servicio:
+Heladera numero 84 recibira un servicio de busqueda de perdida de gas.
+no tendra que pagar, los costos del mismo estan cubierto por la garantia.
+
+-----------------------------------------
+Service generado el dia 6/12/2020 20:54:37
+informacion del servicio:
+Cocina numero 83 recibira un servicio de cambio de cremallera.
+el costo del servicio sera de 2500 ya que el electrodomestico no tiene garantia.
+-----------------------------------------

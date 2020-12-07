@@ -38,9 +38,9 @@ namespace MiTaller
             // 
             this.btnAceptar.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.Location = new System.Drawing.Point(12, 157);
+            this.btnAceptar.Location = new System.Drawing.Point(12, 227);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(102, 41);
+            this.btnAceptar.Size = new System.Drawing.Size(135, 45);
             this.btnAceptar.TabIndex = 1;
             this.btnAceptar.Text = "Aceptar ";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -49,9 +49,9 @@ namespace MiTaller
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(161, 157);
+            this.btnCancelar.Location = new System.Drawing.Point(173, 227);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(102, 41);
+            this.btnCancelar.Size = new System.Drawing.Size(134, 45);
             this.btnCancelar.TabIndex = 2;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -59,11 +59,11 @@ namespace MiTaller
             // cmbServicio
             // 
             this.cmbServicio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbServicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbServicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbServicio.FormattingEnabled = true;
-            this.cmbServicio.Location = new System.Drawing.Point(76, 12);
+            this.cmbServicio.Location = new System.Drawing.Point(72, 60);
             this.cmbServicio.Name = "cmbServicio";
-            this.cmbServicio.Size = new System.Drawing.Size(121, 23);
+            this.cmbServicio.Size = new System.Drawing.Size(171, 26);
             this.cmbServicio.TabIndex = 3;
             // 
             // FrmAltaServicio
@@ -71,7 +71,7 @@ namespace MiTaller
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(275, 213);
+            this.ClientSize = new System.Drawing.Size(319, 284);
             this.Controls.Add(this.cmbServicio);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);

@@ -51,6 +51,7 @@
     <Compile Include="Service.cs" />
     <Compile Include="ServiciosSql.cs" />
     <Compile Include="Taller.cs" />
+    <Compile Include="YaEstaEnTallerException.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

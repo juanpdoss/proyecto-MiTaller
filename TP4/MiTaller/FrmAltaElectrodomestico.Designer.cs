@@ -1,7 +1,7 @@
 ﻿
 namespace MiTaller
 {
-    partial class FrmAlta
+    partial class FrmAltaElectrodomestico
     {
         /// <summary>
         /// Required designer variable.
@@ -83,7 +83,7 @@ namespace MiTaller
             this.rdGarantia.Text = "Tiene garantia";
             this.rdGarantia.UseVisualStyleBackColor = true;
             // 
-            // FrmAlta
+            // FrmAltaElectrodomestico
             // 
             this.AcceptButton = this.btnAceptar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -100,7 +100,7 @@ namespace MiTaller
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmAlta";
+            this.Name = "FrmAltaElectrodomestico";
             this.Text = "Agregar electrodomestico";
             this.ResumeLayout(false);
             this.PerformLayout();

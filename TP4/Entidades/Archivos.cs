@@ -13,8 +13,10 @@ namespace Entidades
     /// </summary>
     public class Archivos : IArchivos
     {
-        public void GuardarService(Service aux)
+        public bool GuardarService(Service aux)
         {
+            bool pude = true;
+
             try
             {
                 using(StreamWriter escritor=new StreamWriter("Comprobantes.txt",true))
@@ -30,27 +32,32 @@ namespace Entidades
             }
             catch
             {
-
+                pude = false;
 
             }
-          
+
+            return pude;
         }
 
-        public void SerializarBinario(Service service)
+        public bool SerializarBinario(Service service)
         {
+            bool pude = true;
+
             try
             {
                 using(FileStream fs=new FileStream("service.bin",FileMode.Create))
                 {
                     BinaryFormatter ser = new BinaryFormatter();
                     ser.Serialize(fs, service);
-
                 }
             }
             catch
             {
+                pude = false;
 
             }
+
+            return pude;
 
         }
     }

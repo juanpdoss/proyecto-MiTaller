@@ -10,11 +10,15 @@ using System.Windows.Forms;
 
 namespace MiTaller
 {
-    public partial class FrmAlta : Form
+    /// <summary>
+    /// Formulario para dar de alta un electrodomestico.
+    /// </summary>
+    public partial class FrmAltaElectrodomestico : Form
     {
-        public FrmAlta()
+        public FrmAltaElectrodomestico()
         {
             InitializeComponent();
+            this.Text = "Agregar electrodomestico";
             this.StartPosition = FormStartPosition.CenterParent;
             this.cmbTipo.DataSource = Enum.GetValues(typeof(ETipo));
             this.cmbTipo.SelectedIndex = 0;

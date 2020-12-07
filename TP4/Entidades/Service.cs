@@ -96,8 +96,6 @@ namespace Entidades
                         this.servicio = EService.DiagnosticoTecnico;
                         break;
                 }
-
-
             }
         }
 
@@ -113,7 +111,7 @@ namespace Entidades
                 switch (this.servicio)
                 {
                     case EService.Balanceo:
-                        sb.Append("de balanceo.");
+                        sb.Append("balanceo.");
                         break;
                     case EService.CambioCremallera:
                         sb.Append("cambio de cremallera.");
@@ -125,13 +123,13 @@ namespace Entidades
                         sb.Append("limpieza del filtro.");
                         break;
                     case EService.PerdidaDeGas:
-                        sb.Append("busqueda de posible perdida de gas.");
+                        sb.Append("busqueda de perdida de gas.");
                         break;
                     case EService.CambioCorrea:
                         sb.Append("cambio de correa.");
                         break;
                     case EService.ArregloElectrico:
-                        sb.Append("control y posterior reparacion electronica.");
+                        sb.Append("reparacion electronica.");
                         break;
                     default:
                         sb.Append("diagostico tecnico.");
@@ -140,7 +138,6 @@ namespace Entidades
                 }
 
                 return sb.ToString();
-
             }
         }
 
@@ -200,6 +197,40 @@ namespace Entidades
 
         #endregion
 
-   
+        #region sobrecarga de operadores
+
+        /// <summary>
+        /// Dos Services seran iguales si comparten el mismo id de Electrodomestico.
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static bool operator ==(Service a,Service b)
+        {
+            bool sonIguales = false;
+
+            if (a.electrodomestico.Id == b.electrodomestico.Id)
+                sonIguales = true;
+
+            return sonIguales;
+
+        }
+
+        /// <summary>
+        /// Dos Services seran distintos si no comparten el mismo id de Electrodomestico.
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static bool operator !=(Service a,Service b)
+        {
+            return !(a == b);
+        }
+
+
+
+        #endregion
+
+
     }
 }

@@ -17,21 +17,20 @@ namespace MiTaller
         Thread hilo1;
         public FormTaller()
         {
-            InitializeComponent();
-            this.hilo1 = new Thread(this.ActualizarDataGrid);
-       
+            InitializeComponent();                   
         }
 
         private void FormTaller_Load(object sender, EventArgs e)
         {
-            if(!this.hilo1.IsAlive)
-                  this.hilo1.Start();
-                    
+            this.btnMeterEnService.Enabled = false;
+            this.Text = "Servicio tecnico utn";
+            this.hilo1 = new Thread(this.ActualizarFormulario);
+
         }
 
         private void btnAgregarElectrodomestico_Click(object sender, EventArgs e)
         {
-            FrmAlta formulario = new FrmAlta();
+            FrmAltaElectrodomestico formulario = new FrmAltaElectrodomestico();
 
             if (formulario.ShowDialog() == DialogResult.OK)
             {
@@ -44,8 +43,6 @@ namespace MiTaller
                 {
                     MessageBox.Show(a.RetornarMensaje());
                 }
-
-
             }
                     
         }
@@ -70,17 +67,15 @@ namespace MiTaller
 
                 if (frm.ShowDialog() == DialogResult.OK)
                 {
-
                     Taller<Electrodomestico>.PonerEnService(auxElectrodomestico, frm.GetServicio);
-                    this.txtService.Text = Taller<Electrodomestico>.GetUltimoEnCola;
-                    this.lblTotalEnCola.Text = Taller<Electrodomestico>.GetCantidadEnCola.ToString();
-                    this.lblTotal.Text = Taller<Electrodomestico>.GetRecaudado.ToString();
+                    if (!this.hilo1.IsAlive)
+                        this.hilo1.Start();
                 }
 
             }
-            catch (BaseDeDatosException a)
+            catch (Exception a)
             {
-                MessageBox.Show(a.RetornarMensaje());
+                MessageBox.Show(a.Message);
             }
 
         }
@@ -104,27 +99,37 @@ namespace MiTaller
         {
             if (this.hilo1.IsAlive)
                 this.hilo1.Abort();
+        }
 
+
+        private void btnCargarElectrodomesticos_Click(object sender, EventArgs e)
+        {
+            this.btnMeterEnService.Enabled = true;
+            Taller<Electrodomestico>.CargarElectrodomesticos(ServiciosSql.ObtenerElectrodomesticos());
+            this.dgElectrodomesticos.DataSource = Taller<Electrodomestico>.GetElectrodomesticos;
+            this.btnCargarElectrodomesticos.Text = "Actualizar electrodomesticos";
         }
 
 
 
         #region metodos
         /// <summary>
-        /// Cargar el data grid con los elementos agregados recientemente.
+        /// Actualizara el textbox y los labels del formulario periodicamente.
         /// </summary>
-        private void ActualizarDataGrid()
+        private void ActualizarFormulario()
         {       
             while (true)
             {
                 try
                 {
-                    Taller<Electrodomestico>.CargarElectrodomesticos(ServiciosSql.ObtenerElectrodomesticos());
+
                     if (this.dgElectrodomesticos.InvokeRequired)
                     {
                         this.dgElectrodomesticos.BeginInvoke((MethodInvoker)delegate ()
                         {
-                            this.dgElectrodomesticos.DataSource = Taller<Electrodomestico>.GetElectrodomesticos;
+                            this.txtService.Text = Taller<Electrodomestico>.GetServices;
+                            this.lblTotalEnCola.Text = Taller<Electrodomestico>.GetCantidadEnCola.ToString();
+                            this.lblTotal.Text = Taller<Electrodomestico>.GetRecaudado.ToString();
                         }
                         );
                     }
@@ -135,13 +140,13 @@ namespace MiTaller
                     MessageBox.Show(a.RetornarMensaje());
                 }
 
-
-                Thread.Sleep(20000);
+                Thread.Sleep(5000);
             }
 
         }
+
         #endregion
 
-        
+      
     }
 }

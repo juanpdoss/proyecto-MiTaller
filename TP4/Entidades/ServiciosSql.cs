@@ -112,6 +112,8 @@ namespace Entidades
 
             return pude;
         }
+
+
         /// <summary>
         /// Borrara un electrodomestico de la base de datos.
         /// </summary>

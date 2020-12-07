@@ -85,7 +85,7 @@ namespace Entidades
         {
            get
            {
-                //Me hice este getters exclusivamente para usarlo en el insert de la tabla de datos.
+                //Me hice este getter exclusivamente para usarlo en el insert de la tabla de datos.
                 return this.id.ToString();
                
            }
@@ -153,6 +153,7 @@ namespace Entidades
 
         /// <summary>
         /// Convierte el tipo recibido como parametro a formato int y lo retorna.
+        /// Lo utilizo para convertir la columna tipo del dataGrid a int. 
         /// </summary>
         /// <param name="tipo"></param>
         /// <returns></returns>

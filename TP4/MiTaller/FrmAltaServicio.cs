@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace MiTaller
 {
+    /// <summary>
+    /// Formulario para dar de alta un servicio.
+    /// </summary>
     public partial class FrmAltaServicio : Form
     {
+        /// <summary>
+        /// Constructor del form, lo utilizo para configuraciones. 
+        /// </summary>
         public FrmAltaServicio()
         {
             InitializeComponent();
+            this.Text = "Meter en service";
             this.StartPosition = FormStartPosition.CenterParent;
             this.cmbServicio.DataSource = Enum.GetValues(typeof(EService));
             this.cmbServicio.SelectedIndex = 0;

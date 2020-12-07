@@ -34,7 +34,7 @@ namespace Test
             Taller<Electrodomestico>.CargarElectrodomesticos(ServiciosSql.ObtenerElectrodomesticos());
 
 
-            Console.WriteLine(Taller<Electrodomestico>.GetUltimoEnCola.ToString());
+            Console.WriteLine(Taller<Electrodomestico>.GetServices.ToString());
 
 
 

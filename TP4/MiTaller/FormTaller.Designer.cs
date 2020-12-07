@@ -39,6 +39,7 @@ namespace MiTaller
             this.lblEnCola = new System.Windows.Forms.Label();
             this.lblTotalEnCola = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnCargarElectrodomesticos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgElectrodomesticos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,8 +72,8 @@ namespace MiTaller
             // 
             this.btnAgregarElectrodomestico.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnAgregarElectrodomestico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregarElectrodomestico.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarElectrodomestico.Location = new System.Drawing.Point(866, 34);
+            this.btnAgregarElectrodomestico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarElectrodomestico.Location = new System.Drawing.Point(655, 43);
             this.btnAgregarElectrodomestico.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnAgregarElectrodomestico.Name = "btnAgregarElectrodomestico";
             this.btnAgregarElectrodomestico.Size = new System.Drawing.Size(164, 57);
@@ -85,8 +86,8 @@ namespace MiTaller
             // 
             this.btnMeterEnService.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnMeterEnService.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMeterEnService.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMeterEnService.Location = new System.Drawing.Point(651, 34);
+            this.btnMeterEnService.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMeterEnService.Location = new System.Drawing.Point(11, 470);
             this.btnMeterEnService.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnMeterEnService.Name = "btnMeterEnService";
             this.btnMeterEnService.Size = new System.Drawing.Size(164, 57);
@@ -104,7 +105,7 @@ namespace MiTaller
             this.txtService.ReadOnly = true;
             this.txtService.Size = new System.Drawing.Size(302, 335);
             this.txtService.TabIndex = 3;
-            this.txtService.Text = "Aqui se mostrara la informacion del ultimo servicio agregado..";
+            this.txtService.Text = "Aqui se mostrara la informacion de los servicios agregados";
             // 
             // lblRecaudado
             // 
@@ -150,8 +151,8 @@ namespace MiTaller
             // 
             this.btnEliminar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(438, 34);
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(438, 43);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(164, 57);
@@ -160,12 +161,27 @@ namespace MiTaller
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
+            // btnCargarElectrodomesticos
+            // 
+            this.btnCargarElectrodomesticos.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnCargarElectrodomesticos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCargarElectrodomesticos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargarElectrodomesticos.Location = new System.Drawing.Point(856, 43);
+            this.btnCargarElectrodomesticos.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnCargarElectrodomesticos.Name = "btnCargarElectrodomesticos";
+            this.btnCargarElectrodomesticos.Size = new System.Drawing.Size(164, 57);
+            this.btnCargarElectrodomesticos.TabIndex = 9;
+            this.btnCargarElectrodomesticos.Text = "Cargar electrodomesticos";
+            this.btnCargarElectrodomesticos.UseVisualStyleBackColor = false;
+            this.btnCargarElectrodomesticos.Click += new System.EventHandler(this.btnCargarElectrodomesticos_Click);
+            // 
             // FormTaller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1042, 623);
+            this.Controls.Add(this.btnCargarElectrodomesticos);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.lblTotalEnCola);
             this.Controls.Add(this.lblEnCola);
@@ -199,6 +215,7 @@ namespace MiTaller
         private System.Windows.Forms.Label lblEnCola;
         private System.Windows.Forms.Label lblTotalEnCola;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnCargarElectrodomesticos;
     }
 }
 

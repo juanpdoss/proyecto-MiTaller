@@ -11,6 +11,11 @@ namespace Entidades
     /// </summary>
     public static class Extension
     {
+        /// <summary>
+        /// Retornara el mensaje de BaseDeDatosException 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <returns></returns>
         public static string RetornarMensaje(this BaseDeDatosException exception)
         {
             return exception.Message;

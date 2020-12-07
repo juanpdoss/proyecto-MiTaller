@@ -25,11 +25,18 @@ namespace Entidades
         /// <summary>
         /// Retorna el ultimo servicio en la cola.
         /// </summary>
-        public static string GetUltimoEnCola
+        public static string GetServices
         {
             get
             {
-                return Taller<U>.colaServicios.Last().ToString();
+                StringBuilder sb = new StringBuilder();
+                foreach (Service item in Taller<U>.colaServicios)
+                {
+                    sb.AppendLine(item.ToString());
+                }
+
+                return sb.ToString();
+ 
             }
         }
 
@@ -83,22 +90,41 @@ namespace Entidades
 
         #region metodos
         /// <summary>
-        /// Agregara un service a la cola del taller.
+        /// Agregara un service a la cola del taller, siempre y cuando este no este en la misma.
         /// </summary>
         /// <param name="service"></param>
         public static void PonerEnService(U electrodomestico,string service)
         {
+            bool yaEsta = false;
+
             Service nuevoServicio = new Service(electrodomestico, service);
-            Taller<U>.recaudado += nuevoServicio.GetCosto;
-            Taller<U>.colaServicios.Enqueue(nuevoServicio);
-            Archivos serviciosDeArchivos = new Archivos();
 
-            serviciosDeArchivos.GuardarService(nuevoServicio);
-            serviciosDeArchivos.SerializarBinario(nuevoServicio);
+            foreach (var item in Taller<U>.colaServicios)
+            {
+                if(item == nuevoServicio)
+                {
+                    yaEsta = true;
+                    break;
+                }
 
+            }
+
+            if(!yaEsta)
+            {
+                Taller<U>.recaudado += nuevoServicio.GetCosto;
+                Taller<U>.colaServicios.Enqueue(nuevoServicio);
+
+                Archivos serviciosDeArchivos = new Archivos();
+                serviciosDeArchivos.GuardarService(nuevoServicio);
+                serviciosDeArchivos.SerializarBinario(nuevoServicio);
+
+            }
+            else
+            {
+                throw new YaEstaEnTallerException();
+            }
         }
  
-
         /// <summary>
         /// Asignara a la lista del taller la lista recibida por parametro.
         /// </summary>
@@ -118,6 +144,14 @@ namespace Entidades
             Taller<U>.listaElectrodomesticos.Add(electrodomestico);
 
         }
+
+
+
+
+
         #endregion
+
+   
+
     }
 }
